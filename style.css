@@ -73,9 +73,57 @@ header nav ul li a{
     height: 70vh;
     margin-bottom: 70px;
 }
+#historico .time-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#historico img{
+    border-radius: 50%;
+}
 
 /* Estilização da seção interesses */
 #interesses{
+    border: solid 1px red;
+    background-color: #93bbe2;
+    padding: 7px;
+    height: 70vh;
+    margin-bottom: 70px;
+}
+
+/* Estilização da seção contato */
+
+#contato{
+    border: solid 1px red;
+    background-color: #93bbe2;
+    padding: 7px;
+    height: 70vh;
+    margin-bottom: 70px;
+}
+
+/* Estilização da seção depoimentos */
+
+#depoimentos{
+    border: solid 1px red;
+    background-color: #93bbe2;
+    padding: 7px;
+    height: 70vh;
+    margin-bottom: 70px;
+}
+
+/* Estilização da seção galeria de fotos */
+
+#galeria-de-fotos{
+    border: solid 1px red;
+    background-color: #93bbe2;
+    padding: 7px;
+    height: 70vh;
+    margin-bottom: 70px;
+}
+
+/* Estilização da seção aprendizado */
+
+#aprendizado{
     border: solid 1px red;
     background-color: #93bbe2;
     padding: 7px;
