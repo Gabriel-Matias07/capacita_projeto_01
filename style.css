@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color: #e7eff7;
+}
+header{
+    background-color: #2b7fd3;
+    border: solid 1px;
+    height: 3rem;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
