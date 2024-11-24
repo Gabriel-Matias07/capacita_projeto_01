@@ -10,7 +10,6 @@ html{
 }
 body{
     background-color: #e7eff7;
-    padding: 10px;
 }
 
 
@@ -26,7 +25,7 @@ header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #93bbe2;
+    background: #384772;
     height: 9vh;
 }
 header nav ul{
@@ -37,15 +36,16 @@ header nav ul{
 header nav ul li{
     letter-spacing: 3px;
     margin-left: 100px;
+
 }
 header nav ul li a{
     text-decoration: none;
+    color: white;
 }
 
 /* Estilização da seção introdução */
 #introducao{
     border: solid 1px red;
-    background-color: #93bbe2;
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -68,7 +68,7 @@ header nav ul li a{
 
 #historico{
     border: solid 1px red;
-    background-color: #93bbe2;
+    background-color: #384772;
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -85,7 +85,7 @@ header nav ul li a{
 /* Estilização da seção interesses */
 #interesses{
     border: solid 1px red;
-    background-color: #93bbe2;
+    background-color: #384772;
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -95,7 +95,7 @@ header nav ul li a{
 
 #contato{
     border: solid 1px red;
-    background-color: #93bbe2;
+    background-color: #384772;
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -105,7 +105,7 @@ header nav ul li a{
 
 #depoimentos{
     border: solid 1px red;
-    background-color: #93bbe2;
+    background-color: #384772;
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -115,7 +115,7 @@ header nav ul li a{
 
 #galeria-de-fotos{
     border: solid 1px red;
-    background-color: #93bbe2;
+    background-color: #384772;
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -125,7 +125,7 @@ header nav ul li a{
 
 #aprendizado{
     border: solid 1px red;
-    background-color: #93bbe2;
+    background-color: #384772;
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
