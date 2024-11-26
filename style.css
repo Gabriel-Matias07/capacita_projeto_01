@@ -51,17 +51,21 @@ header a:hover{
 
 /* Estilização da seção introdução */
 #introducao{
- 
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
 }
 #introducao .wrapper{
- 
     float: right;
     width: 400px;
     margin-top: 60px;
     margin-right: 20px;
+    transition: transform 1s ease, padding-right 1s ease, color 1s ease;
+    cursor: pointer;
+}
+#introducao .wrapper:hover{
+    transform: scale(1.5);
+    padding-right: 30%;
 }
 #introducao .wrapper img{
     border-radius: 50%;
@@ -77,7 +81,6 @@ header a:hover{
 /* Estilização da seção histórico */
 
 #historico{
-   
     background-color: #384772;
     padding: 7px;
     height: 70vh;
@@ -94,11 +97,14 @@ header a:hover{
     border-radius: 50%;
     width: 270px;
 }
+#historico img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
 
 /* Estilização da seção interesses */
 #interesses{
- 
-
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -107,7 +113,6 @@ header a:hover{
 /* Estilização da seção contato */
 
 #contato{
-  
     background-color: #384772;
     padding: 7px;
     height: 70vh;
@@ -117,7 +122,6 @@ header a:hover{
 /* Estilização da seção depoimentos */
 
 #depoimentos{
-  
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
@@ -126,7 +130,6 @@ header a:hover{
 /* Estilização da seção galeria de fotos */
 
 #galeria-de-fotos{
- 
     background-color: #384772;
     padding: 7px;
     height: 70vh;
@@ -136,7 +139,6 @@ header a:hover{
 /* Estilização da seção aprendizado */
 
 #aprendizado{
-
     padding: 7px;
     height: 70vh;
     margin-bottom: 70px;
