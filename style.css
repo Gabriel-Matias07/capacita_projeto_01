@@ -124,6 +124,29 @@ header a:hover {
     height: 60vh;
     margin-bottom: 70px;
 }
+  
+  .hobby {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .hobby h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .hobby p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  .hobby:last-child {
+    border-bottom: none;
+  }
+  
 
 /* Estilização da seção aprendizado */
 #aprendizado {
